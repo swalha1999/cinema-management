@@ -1,6 +1,7 @@
 ## Cinema Management Classes
 
-### Actor
+
+### Person
 - Properties:
     - Name (string)
     - BirthDate (DateTime)
@@ -9,6 +10,19 @@
 - Methods:
     - GetDetails(): string
     - GetAge(): int
+
+
+### Actor : Person
+- Properties:
+    - Movies (List<Movie>)
+- Methods:
+    - GetMovies(): List<Movie>
+
+### Director : Person
+- Properties:
+    - Movies (List<Movie>)
+- Methods:
+    - GetMovies(): List<Movie>
 
 ### Movie
 - Properties:
@@ -21,6 +35,7 @@
     - Rating (double)
 - Methods:
     - GetDetails(): string
+
 
 # Below classes are not yet ready
 
